@@ -2,7 +2,11 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: "Helvetica Neue"
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  margin: 0;
 }
 
 header {
@@ -10,23 +14,121 @@ header {
   overflow: hidden;
   height: 60px;
   padding: 0 20px;
-
+  /*width: 100%;*/
 }
 
+.navbar {
+  float: right;
+  font-size: 20px;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 60px;
+}
+
+
 h1.logo {
-  font-size: 16px;
+  font-size: 18px;
   color: white;
   float: left;
-  padding-top: 10px;
+  line-height: 40px;
 }
 
 ul {
   list-style: none;
-  float: right;
-  font-size: 18px;
+  margin: 0;
 }
 
-li {
-  display: inline-block;
-  margin-right: 5px;
+
+h2 {
+    color: white;
+    display: inline-block;
+    padding-bottom: 5px;
+    border: 0;
+}
+
+#home {
+    background-color: #26547C;
+    overflow: hidden;
+}
+
+.container {
+  margin: auto;
+  max-width: 900px;
+  overflow: hidden;
+}
+div.hero-image img{
+  max-width: 100%;
+}
+
+div.hero-image {
+  float: left;
+  width: 60%;
+}
+
+div.hero-content {
+  float: left;
+  width: 40%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.call-to-action {
+  background-color: #FFD166;
+  padding: 30px 20px;
+}
+
+h3 {
+  display: block;
+  font-weight: bold;
+}
+
+p {
+  font-size: 19px;
+}
+
+.products {
+  padding: 30px 20px;
+  background-color: #F2F2F2;
+}
+
+.product-wrapper {
+  overflow: hidden;
+}
+
+.product-item {
+  float: left;
+  padding: 10px;
+  width: 33%;
+}
+
+li.product-item img {
+  border: 3px solid black;
+  max-width: 100%;
+}
+
+.about {
+  background-color: #26547C;
+  color: white;
+  overflow: hidden;
+}
+.team {
+  color: #EF476F;
+  overflow: hidden;
+}
+.team-fun, .team-values, .team-meow{
+  float: left;
+  width: 33.33%;
+  text-align:center;
+}
+
+footer {
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  padding: 0 20px;
+  background-color: #06D6A0;
 }
