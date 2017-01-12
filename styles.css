@@ -132,3 +132,15 @@ footer {
   padding: 0 20px;
   background-color: #06D6A0;
 }
+
+a:active {
+  color: red;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
